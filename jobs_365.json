@@ -1,0 +1,203 @@
+{
+  "offset": 0,
+  "limit": 100,
+  "_links": {
+    "self": {
+      "href": "/v8/Jobs?offset=0&limit=100"
+    }
+  },
+  "results": [
+    {
+      "description": "Backup for o365 mailboxes",
+      "backupType": "SelectedItems",
+      "schedulePolicy": {
+        "scheduleEnabled": true,
+        "backupWindowEnabled": false,
+        "periodicallyWindowEnabled": false,
+        "type": "Daily",
+        "dailyType": "Everyday",
+        "dailyTime": "22:00:00Z",
+        "retryEnabled": true,
+        "retryNumber": 3,
+        "retryWaitInterval": 10
+      },
+      "id": "5e9ed01a-fca0-4bbd-876e-8bb58f6b441e",
+      "organizationId": "5beba340-5afe-4d76-870a-c88e176b36fa",
+      "repositoryId": "087e2744-ab2b-42bb-b19d-8042d1386821",
+      "name": "O365 - Mailboxes",
+      "lastRun": "2025-11-11T04:26:27.0054019Z",
+      "nextRun": "2025-11-11T22:00:00Z",
+      "lastBackup": "2025-11-11T04:05:49.8136352Z",
+      "isEnabled": true,
+      "lastStatus": "Failed",
+      "eTag": 1,
+      "_links": {
+        "self": {
+          "href": "/v8/jobs/5e9ed01a-fca0-4bbd-876e-8bb58f6b441e"
+        },
+        "copyJob": {
+          "href": "/v8/jobs/5e9ed01a-fca0-4bbd-876e-8bb58f6b441e/copyJob"
+        },
+        "organization": {
+          "href": "/v8/organizations/5beba340-5afe-4d76-870a-c88e176b36fa"
+        },
+        "backupRepository": {
+          "href": "/v8/backuprepositories/087e2744-ab2b-42bb-b19d-8042d1386821"
+        },
+        "jobsessions": {
+          "href": "/v8/jobs/5e9ed01a-fca0-4bbd-876e-8bb58f6b441e/jobsessions"
+        },
+        "excludedItems": {
+          "href": "/v8/jobs/5e9ed01a-fca0-4bbd-876e-8bb58f6b441e/excludedItems"
+        },
+        "selectedItems": {
+          "href": "/v8/jobs/5e9ed01a-fca0-4bbd-876e-8bb58f6b441e/selectedItems"
+        }
+      }
+    },
+    {
+      "description": "Backup Sharepoint in O365 without test or personal sites (Onedrives)",
+      "backupType": "SelectedItems",
+      "schedulePolicy": {
+        "scheduleEnabled": true,
+        "backupWindowEnabled": false,
+        "periodicallyWindowEnabled": false,
+        "type": "Daily",
+        "dailyType": "Everyday",
+        "dailyTime": "22:00:00Z",
+        "retryEnabled": true,
+        "retryNumber": 3,
+        "retryWaitInterval": 10
+      },
+      "id": "96c8bbad-eb61-4c50-bc95-09e0cc9c1806",
+      "organizationId": "5beba340-5afe-4d76-870a-c88e176b36fa",
+      "repositoryId": "087e2744-ab2b-42bb-b19d-8042d1386821",
+      "name": "O365 - Sharepoint",
+      "lastRun": "2025-11-11T00:27:38.4307472Z",
+      "nextRun": "2025-11-11T22:00:00Z",
+      "lastBackup": "2025-11-10T23:58:33.1404557Z",
+      "isEnabled": true,
+      "lastStatus": "Warning",
+      "eTag": 1,
+      "_links": {
+        "self": {
+          "href": "/v8/jobs/96c8bbad-eb61-4c50-bc95-09e0cc9c1806"
+        },
+        "copyJob": {
+          "href": "/v8/jobs/96c8bbad-eb61-4c50-bc95-09e0cc9c1806/copyJob"
+        },
+        "organization": {
+          "href": "/v8/organizations/5beba340-5afe-4d76-870a-c88e176b36fa"
+        },
+        "backupRepository": {
+          "href": "/v8/backuprepositories/087e2744-ab2b-42bb-b19d-8042d1386821"
+        },
+        "jobsessions": {
+          "href": "/v8/jobs/96c8bbad-eb61-4c50-bc95-09e0cc9c1806/jobsessions"
+        },
+        "excludedItems": {
+          "href": "/v8/jobs/96c8bbad-eb61-4c50-bc95-09e0cc9c1806/excludedItems"
+        },
+        "selectedItems": {
+          "href": "/v8/jobs/96c8bbad-eb61-4c50-bc95-09e0cc9c1806/selectedItems"
+        }
+      }
+    },
+    {
+      "description": "Backup for TEAMS",
+      "backupType": "SelectedItems",
+      "schedulePolicy": {
+        "scheduleEnabled": true,
+        "backupWindowEnabled": false,
+        "periodicallyWindowEnabled": false,
+        "type": "Daily",
+        "dailyType": "Everyday",
+        "dailyTime": "22:00:00Z",
+        "retryEnabled": true,
+        "retryNumber": 3,
+        "retryWaitInterval": 10
+      },
+      "id": "bba3519c-fc8d-42fd-b105-02e15d723164",
+      "organizationId": "5beba340-5afe-4d76-870a-c88e176b36fa",
+      "repositoryId": "087e2744-ab2b-42bb-b19d-8042d1386821",
+      "name": "O365 - Teams",
+      "lastRun": "2025-11-10T23:54:00.506708Z",
+      "nextRun": "2025-11-11T22:00:00Z",
+      "lastBackup": "2025-11-10T23:15:36.4566072Z",
+      "isEnabled": true,
+      "lastStatus": "Warning",
+      "eTag": 2,
+      "_links": {
+        "self": {
+          "href": "/v8/jobs/bba3519c-fc8d-42fd-b105-02e15d723164"
+        },
+        "copyJob": {
+          "href": "/v8/jobs/bba3519c-fc8d-42fd-b105-02e15d723164/copyJob"
+        },
+        "organization": {
+          "href": "/v8/organizations/5beba340-5afe-4d76-870a-c88e176b36fa"
+        },
+        "backupRepository": {
+          "href": "/v8/backuprepositories/087e2744-ab2b-42bb-b19d-8042d1386821"
+        },
+        "jobsessions": {
+          "href": "/v8/jobs/bba3519c-fc8d-42fd-b105-02e15d723164/jobsessions"
+        },
+        "excludedItems": {
+          "href": "/v8/jobs/bba3519c-fc8d-42fd-b105-02e15d723164/excludedItems"
+        },
+        "selectedItems": {
+          "href": "/v8/jobs/bba3519c-fc8d-42fd-b105-02e15d723164/selectedItems"
+        }
+      }
+    },
+    {
+      "description": "Backup for o365 user Onedrives",
+      "backupType": "SelectedItems",
+      "schedulePolicy": {
+        "scheduleEnabled": true,
+        "backupWindowEnabled": false,
+        "periodicallyWindowEnabled": false,
+        "type": "Daily",
+        "dailyType": "Everyday",
+        "dailyTime": "22:00:00Z",
+        "retryEnabled": true,
+        "retryNumber": 3,
+        "retryWaitInterval": 10
+      },
+      "id": "cc3ac9ab-dbc6-473a-a1dc-4ca5f25193e5",
+      "organizationId": "5beba340-5afe-4d76-870a-c88e176b36fa",
+      "repositoryId": "087e2744-ab2b-42bb-b19d-8042d1386821",
+      "name": "O365 - Onedrive",
+      "lastRun": "2025-11-11T09:37:46.2651685Z",
+      "nextRun": "2025-11-11T22:00:00Z",
+      "lastBackup": "2025-11-11T06:08:13.2893434Z",
+      "isEnabled": true,
+      "lastStatus": "Warning",
+      "eTag": 2,
+      "_links": {
+        "self": {
+          "href": "/v8/jobs/cc3ac9ab-dbc6-473a-a1dc-4ca5f25193e5"
+        },
+        "copyJob": {
+          "href": "/v8/jobs/cc3ac9ab-dbc6-473a-a1dc-4ca5f25193e5/copyJob"
+        },
+        "organization": {
+          "href": "/v8/organizations/5beba340-5afe-4d76-870a-c88e176b36fa"
+        },
+        "backupRepository": {
+          "href": "/v8/backuprepositories/087e2744-ab2b-42bb-b19d-8042d1386821"
+        },
+        "jobsessions": {
+          "href": "/v8/jobs/cc3ac9ab-dbc6-473a-a1dc-4ca5f25193e5/jobsessions"
+        },
+        "excludedItems": {
+          "href": "/v8/jobs/cc3ac9ab-dbc6-473a-a1dc-4ca5f25193e5/excludedItems"
+        },
+        "selectedItems": {
+          "href": "/v8/jobs/cc3ac9ab-dbc6-473a-a1dc-4ca5f25193e5/selectedItems"
+        }
+      }
+    }
+  ]
+}
